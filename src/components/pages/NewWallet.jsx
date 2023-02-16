@@ -7,7 +7,7 @@ const navigate = useNavigate();
 
 function createPost(project){
   
-  fetch('http://localhost:3001/wallets', {
+  fetch('http://localhost:5000/wallets', {
     method: "POST",
     headers: {
       'Content-type': 'application/json'
@@ -16,8 +16,8 @@ function createPost(project){
   })
   .then((resp) => resp.json())
   .then((data) => {
-    console.log(data)
-    navigate('/wallets', { state: { message: 'Projeto criado com sucesso!' } })
+  console.log(data)
+    navigate('/wallet', { state: { message: 'Projeto criado com sucesso!' } })
   })
   .catch(err => console.log(err))
 

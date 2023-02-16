@@ -1,5 +1,40 @@
 {
   "wallets": [
-    
+    {
+      "name": "raelzera",
+      "CNPJ": "1323123",
+      "endereco": "av floripa",
+      "id": 1
+    },
+    {
+      "name": "raelzera_v2",
+      "CNPJ": "321321321",
+      "endereco": "av floripa",
+      "id": 2
+    },
+    {
+      "name": "gabi panga",
+      "CNPJ": "13123123",
+      "endereco": "av floripa",
+      "id": 3
+    },
+    {
+      "name": "gabi bomb",
+      "CNPJ": "123423",
+      "endereco": "12313",
+      "id": 4
+    },
+    {
+      "name": "BOMBA DA GABI",
+      "CNPJ": "32138123812",
+      "endereco": "é os guri",
+      "id": 5
+    },
+    {
+      "name": "Técnico de informática",
+      "CNPJ": "312312321",
+      "endereco": "floripa",
+      "id": 6
+    }
   ]
 }

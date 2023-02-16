@@ -34,6 +34,7 @@ function handleChange(e) {
         name="CNPJ"
         placeholder="Insira o CNPJ"
        handleOnChange={handleChange}
+        value={project.CNPJ ? project.CNPJ : ''}
       />
 
       <Input
@@ -42,6 +43,7 @@ function handleChange(e) {
         name="endereco"
         placeholder="Insira o endereço"
        handleOnChange={handleChange}
+       value={project.endereco ? project.endereco : ''}
       />
 
       <Submit text={btnText} />
